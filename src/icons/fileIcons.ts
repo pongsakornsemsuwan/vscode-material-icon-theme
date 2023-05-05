@@ -165,6 +165,8 @@ export const fileIcons: FileIcons = {
         'routes.tsx',
         'routes.js',
         'routes.jsx',
+        'routes/rs',
+        'external_game_route/rs',
       ],
       fileNames: [
         'router.js',
@@ -313,6 +315,7 @@ export const fileIcons: FileIcons = {
         'psql',
         'db',
         'db3',
+        'dao/rs',
       ],
     },
     { name: 'kusto', fileExtensions: ['kql'] },
@@ -624,7 +627,7 @@ export const fileIcons: FileIcons = {
       fileExtensions: ['mp3', 'flac', 'm4a', 'wma', 'aiff', 'wav'],
     },
     { name: 'coffee', fileExtensions: ['coffee', 'cson', 'iced'] },
-    { name: 'document', fileExtensions: ['txt'] },
+    { name: 'document', fileExtensions: ['txt', 'schemas/rs'] },
     {
       name: 'graphql',
       fileExtensions: ['graphql', 'gql'],
@@ -948,7 +951,7 @@ export const fileIcons: FileIcons = {
     { name: 'nix', fileExtensions: ['nix'] },
     { name: 'slim', fileExtensions: ['slim'] },
     { name: 'http', fileExtensions: ['http', 'rest'], fileNames: ['CNAME'] },
-    { name: 'restql', fileExtensions: ['rql', 'restql'] },
+    { name: 'restql', fileExtensions: ['rql', 'restql', 'traits/rs'] },
     { name: 'kivy', fileExtensions: ['kv'] },
     {
       name: 'graphcool',
@@ -1294,6 +1297,7 @@ export const fileIcons: FileIcons = {
         'contributors.txt',
         'contributors',
       ],
+      fileExtensions: ['models/rs'],
     },
     { name: 'flow', fileNames: ['.flowconfig'] },
     { name: 'favicon', fileNames: ['favicon.ico'] },
@@ -1531,7 +1535,11 @@ export const fileIcons: FileIcons = {
     { name: 'log', fileExtensions: ['log'] },
     { name: 'dotjs', fileExtensions: ['def', 'dot', 'jst'] },
     { name: 'ejs', fileExtensions: ['ejs'] },
-    { name: 'sequelize', fileNames: ['.sequelizerc'] },
+    {
+      name: 'sequelize',
+      fileNames: ['.sequelizerc'],
+      fileExtensions: ['services/rs'],
+    },
     {
       name: 'gatsby',
       fileNames: [
@@ -1840,7 +1848,7 @@ export const fileIcons: FileIcons = {
       ],
     },
     { name: 'coconut', fileExtensions: ['coco'] },
-    { name: 'tilt', fileNames: ['tiltfile'] },
+    { name: 'tilt', fileNames: ['tiltfile'], fileExtensions: ['enums/rs'] },
     {
       name: 'capacitor',
       fileNames: ['capacitor.config.json', 'capacitor.config.ts'],

@@ -11,15 +11,11 @@ export const activateIcons = () => {
 const setIconTheme = async () => {
   // global user config
   try {
-    await getConfig().update(
-      'workbench.iconTheme',
-      'material-icon-theme',
-      true
-    );
+    await getConfig().update('workbench.iconTheme', 'ofb-icon-theme', true);
 
     // local workspace config
     if (getConfig().inspect('workbench.iconTheme')?.workspaceValue) {
-      getConfig().update('workbench.iconTheme', 'material-icon-theme');
+      getConfig().update('workbench.iconTheme', 'ofb-icon-theme');
     }
     codeWindow.showInformationMessage(translate('activated'));
   } catch (error) {

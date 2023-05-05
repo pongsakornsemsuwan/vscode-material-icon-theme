@@ -32,7 +32,7 @@ const fetchContributors = (
     const requestOptions: RequestOptions = {
       method: 'GET',
       hostname: 'api.github.com',
-      path: `/repos/pkief/vscode-material-icon-theme/contributors?page=${page}`,
+      path: `/repos/pkief/vscode-ofb-icon-theme/contributors?page=${page}`,
       port: 443,
       headers: {
         link: 'next',
